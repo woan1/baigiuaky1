@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nguyễn Thanh Quan - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">WANU</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+      </nav>
+      <a href="#contact" class="contact-button">Contact Me</a>
+    </header>
+
+    <section class="hero fade-in">
+      <div class="hero-content">
+        <h1>Hi!</h1>
+        <h2>I'm <span>Nguyễn Thanh Quan</span></h2>
+        <h3>A Software Engineering Student</h3>
+        <p>
+          "I’m passionate about technology and constantly seeking to learn new
+          things."
+        </p>
+        <div class="contact-info">
+          <div class="contact-item">
+            <img src="3.jpg" alt="Location Icon" class="contact-icon" />
+            <p>Saigon, Vietnam</p>
+          </div>
+          <div class="contact-item">
+            <img src="4.jpg" alt="Phone Icon" class="contact-icon" />
+            <p>0928083834</p>
+          </div>
+          <div class="contact-item">
+            <img src="6.jpg" alt="Email Icon" class="contact-icon" />
+            <p>nguyenthanhquan0928@gmail.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img src="2.jpg" alt="Profile Picture" />
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="education-container">
+        <div class="education-item">
+          <h3 class="degree">Bachelor of Science in Computer Science</h3>
+          <p class="institution">
+            International Institute of Information Engineering (NIIE)
+          </p>
+          <p class="date">September 2019 - June 2023</p>
+          <p class="description">
+            Focused on software development with special emphasis on modern
+            programming languages and project management.
+          </p>
+        </div>
+        <div class="education-item">
+          <h3 class="degree">Diploma in Information Technology</h3>
+          <p class="institution">ABC Technical School</p>
+          <p class="date">September 2017 - June 2019</p>
+          <p class="description">
+            Covered fundamental IT skills, including networking, database
+            management, and basic programming.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="slide-in">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill-item">
+          <h3>C++</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%"></div>
+          </div>
+          <p class="skill-percentage">70%</p>
+        </div>
+        <div class="skill-item">
+          <h3>HTML</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%"></div>
+          </div>
+          <p class="skill-percentage">70%</p>
+        </div>
+        <div class="skill-item">
+          <h3>CSS</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 70%"></div>
+          </div>
+          <p class="skill-percentage">70%</p>
+        </div>
+        <div class="skill-item">
+          <h3>JavaScript</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 50%"></div>
+          </div>
+          <p class="skill-percentage">50%</p>
+        </div>
+        <div class="skill-item">
+          <h3>Python</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+          <p class="skill-percentage">80%</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+      <h2>Projects</h2>
+      <div class="projects-container">
+        <div class="project-item">
+          <div class="project-images">
+            <img src="8.jpg" alt="Project 1 Image 1" class="project-img" />
+            <img src="9.jpg" alt="Project 1 Image 2" class="project-img" />
+            <img src="10.jpg" alt="Project 1 Image 3" class="project-img" />
+          </div>
+          <div class="project-info">
+            <h3>S-Notes</h3>
+            <p>
+              S-Notes là một ứng dụng ghi chú dễ sử dụng với giao diện thân
+              thiện, hoạt động mượt mà và thường xuyên cập nhật các tính năng
+              mới.
+            </p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <form action="#" method="post" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/ahn_wanu?igsh=Ymk5cjBqYW50dGww&utm_source=qr"
+            target="_blank"
+            class="social-link"
+          >
+            <img src="it.jpg" alt="Instagram Logo" class="social-logo" />
+            Instagram
+          </a>
+          <a
+            href="https://www.facebook.com/nguyenthanh.quan.94043?mibextid=LQQJ4d"
+            target="_blank"
+            class="social-link"
+          >
+            <img src="fb.jpg" alt="Facebook Logo" class="social-logo" />
+            Facebook
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2024 Nguyễn Thanh Quan. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
